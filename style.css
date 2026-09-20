@@ -1,0 +1,37 @@
+.navbar-brand {
+  position: relative;
+    display: inline-block;
+    width: 120px;   
+    height: 40px;   
+    margin-left: 0px; 
+  }
+
+.navbar-logo-img {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%); 
+    
+    width: 260px; 
+    height: auto;
+    z-index: 10;   
+  }
+
+  @media (max-width: 991px) {
+  .navbar-brand {
+    width: 120px;
+  }
+  .navbar-logo-img {
+    width: 200px; 
+  }
+}
+
+
+@media (max-width: 576px) {
+  .navbar-brand {
+    width: 100px;
+  }
+  .navbar-logo-img {
+    width: 150px; 
+  }
+}
