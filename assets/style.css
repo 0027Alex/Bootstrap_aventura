@@ -16,7 +16,7 @@ body {
 }
 
 .carousel-caption {
-  botton: 200px;
+  bottom: 200px;
   z-index: 2;
 }
 
@@ -147,9 +147,78 @@ body {
     padding-top: 50px;
   }
   .card {
-    margin-botton: 30px;
+    margin-bottom: 30px;
   }
   .section-padding {
     padding: 50px 0;
   }
+}
+
+/*PELICULAS POR INDIVIDUALES*/
+.hero {
+    background-color: #212529;
+    color: #ffffff;
+}
+
+.card {
+    background-color: #212529;
+    color: #ffffff;
+    border: none;
+}
+
+.section-title {
+    color: #ffffff;
+}
+
+.text-secondary {
+    color: #adb5bd !important;
+}
+
+.btn-primary {
+    background-color: #0D6EFD;
+    border-color: #0D6EFD;
+}
+
+.btn-primary:hover {
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+}
+
+.badge {
+    background-color: #0D6EFD !important;
+    color: #ffffff !important;
+}
+
+.table {
+    --bs-table-bg: #212529;
+    --bs-table-color: #ffffff;
+    --bs-table-border-color: #495057;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) > * {
+    --bs-table-bg-type: #292d31;
+    color: #ffffff;
+}
+
+.modal-content {
+    background-color: #212529;
+    color: #ffffff;
+}
+
+.modal-header,
+.modal-footer {
+    border-color: #495057;
+}
+
+.btn-close {
+    filter: invert(1);
+}
+
+.gallery img {
+    border: 2px solid #212529;
+    transition: 0.3s;
+}
+
+.gallery img:hover {
+    border-color: #0D6EFD;
 }
