@@ -16,37 +16,38 @@
 
 <body>
 
-    <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top border-bottom border-secondary">
         <div class="container-fluid px-2">
             <a href="../../index.html" class="navbar-brand">
-                <img src="../../assets/img/logo.png" alt="Logotipo aventia" class="navbar-logo-img">
+                <img src="../../../Bootstrap_aventura/assets/img/logo.png" alt="Logotipo aventia" class="navbar-logo-img">
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarS"
-                aria-controls="navbarS" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="navbarS"
+                aria-controls="nabarS" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarS">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <ul class="navbar-nav ms-auto mb-2 mb-Ig-0">
                     <li class="nav-item">
-                        <a href="../../index.html" class="nav-link">INICIO</a>
+                        <a href="../../../Bootstrap_aventura/index.html" class="nav-link">INICIO</a>
                     </li>
                     <li class="nav-item">
-                        <a href="../PELICULAS.html" class="nav-link active">PELICULAS</a>
+                        <a href="../PELICULAS.html" class="nav-link">PELICULAS</a>
                     </li>
                     <li class="nav-item">
                         <a href="../NOSOTROS.html" class="nav-link">NOSOTROS</a>
                     </li>
                 </ul>
             </div>
+
         </div>
+
     </nav>
 
-    <!-- ESPACIADO PARA COMPENSAR LA NAVBAR FIXED -->
-    <div style="margin-top: 100px;"></div>
+  <!-- ESPACIADO PARA COMPENSAR LA NAVBAR FIXED -->
+   <div style="margin-top: 100px;"></div>
 
 <!-- INFORMACIÓN PRINCIPAL (HERO) -->
-<section class="hero my-5">
+<section>
     <div class="container">
         <div class="row align-items-center bg-dark p-4 rounded-3 border border-secondary shadow-lg">
             <!-- Poster -->
@@ -135,13 +136,19 @@
     <div class="row g-4">
         <!-- Video 1 -->
         <div class="col-12 col-md-6">
-            <div class="ratio ratio-16x9 rounded-3 shadow-lg overflow-hidden border border-secondary">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/liGB1ssYn38?si=y7HKyR17ERJRZWQq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>            </div>
+            <div class="ratio ratio-16x9 rounded-3 shadow-lg overflow-hidden border border-secondary bg-black">
+                <video controls poster="../../assets/img/como_entrenar_dragon/trailer (como entrenar a tu dragon - live action).jpg" class="w-100 h-100">
+                    <source src="../../assets/videos/Como entrenar a tu dragon - live action/Cómo Entrenar A Tu Dragón - Tráiler Oficial _ (Universal Pictures) - HD_1080p.mp4" type="video/mp4">
+                </video>
+            </div>
         </div>
         <!-- Video 2 -->
         <div class="col-12 col-md-6">
-            <div class="ratio ratio-16x9 rounded-3 shadow-lg overflow-hidden border border-secondary">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/keEZ9-x_5lk?si=405Wo9S-n7Cjyeru" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>            </div>
+            <div class="ratio ratio-16x9 rounded-3 shadow-lg overflow-hidden border border-secondary bg-black">
+                <video controls poster="../../assets/img/como_entrenar_dragon/videoclip (como entrenar a tu dragon - live action).jpg" class="w-100 h-100">
+                    <source src="../../assets/videos/Como entrenar a tu dragon - live action/Hipo y Chimuelo VS Pesadilla Monstruosa _ Cómo entrenar a tu dragón (2025) _ Clip en Español_1080p.mp4" type="video/mp4">
+                </video>
+            </div>
         </div>
     </div>
 </section>
@@ -189,10 +196,9 @@
 
 
     <!-- FOOTER -->
-    <footer class="text-center py-4 bg-dark mt-5 border-top border-secondary">
-        <div class="container">
+   <footer  class="text-center py-4 mt-5  border-secondary">
             <p class="text-white m-0">Aventia © 2026 - Todos los derechos reservados</p>
-            <p class="text-white-50 m-0 mt-2 fs-6">Proyecto Web - Películas Favoritas de Aventura</p>
+            <p class="text-white m-0 mt-2">Proyecto Web - Peliculas Favoritas de Aventura</p>
         </div>
     </footer>
 
